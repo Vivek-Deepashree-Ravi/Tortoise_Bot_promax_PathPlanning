@@ -96,6 +96,12 @@ ros2 launch tortoisebotpromax_bringup autobringup.launch.py use_sim_time:=False 
 
 Later map will be loaded in RViz
 
+Give the robot these coordinates in the wayfollower code, and have it run across the environment or room with various stops in between.
+
+To do this run this command in another terminal
+```bash
+ros2 run waypoint_follower wayfollwer_csv.py
+```
 
 
  
