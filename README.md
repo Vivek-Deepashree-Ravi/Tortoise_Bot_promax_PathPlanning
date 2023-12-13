@@ -9,7 +9,7 @@ This workspace has been tested with ROS 2 Galactic and Foxy.This directory conta
 Install the ROS Navigation Stack 
 
 ```bash
-sudo apt-get install ros-noetic-navigation
+sudo apt-get install ros-galactic-navigation
 sudo apt install ros-galactic-joint-state-publisher
 sudo apt install ros-galactic-robot-localization
 sudo apt-get install ros-galactic-teleop-twist-keyboard
